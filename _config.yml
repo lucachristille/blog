@@ -1,0 +1,14 @@
+# Site settings
+title: Oltre Nuove Frontiere
+email: author@oltrenuovefrontiere.it
+description: > # this means to ignore newlines until "baseurl:"
+  Blog Personale per condividere le esperienze sulla Nuova Evangelizzazione.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.oltrenuovefrontiere.it # the base hostname & protocol for your site
+twitter_username: lucachristille
+github_username:  lucachristille
+
+timezone: Europe/Rome
+
+# Build settings
+markdown: kramdown

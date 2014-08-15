@@ -1,6 +1,6 @@
-title:            Site Title
-description:      Describe your website here.
-disqus_shortname: shortname
+title:            Oltre _ Nuove Frontiere
+description:      Nuove vie per andare verso l’Alt(r)o
+disqus_shortname: lucachristille
 # Your site's domain goes here. When working locally use localhost server leave blank
 # PS. If you set this wrong stylesheets and scripts won't load and most links will break.
 # PPS. If you leave it blank for local testing home links won't work, they'll be fine for live domains though.
@@ -27,9 +27,6 @@ bing_verify:
 links:
   - title: Theme Setup
     url: /theme-setup
-  - title: External Link
-    url: http://mademistakes.com
-    external: false
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Europe/Rome

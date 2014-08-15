@@ -7,7 +7,5 @@ url: "http://www.oltrenuovefrontiere.it”
 twitter_username: lucachristille
 github_username: lucachristille
 
-timezone: Europe/Rome
-
 # Build settings
 markdown: kramdown

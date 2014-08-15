@@ -1,37 +1,55 @@
-title:            Oltre _ Nuove Frontiere
-description:      Nuove vie per andare verso l’Alt(r)o
-disqus_shortname: lucachristille
-# Your site's domain goes here. When working locally use localhost server leave blank
-# PS. If you set this wrong stylesheets and scripts won't load and most links will break.
-# PPS. If you leave it blank for local testing home links won't work, they'll be fine for live domains though.
-url:              http://lucachristille.github.io/blog/
+# Site wide configuration
 
-# Owner/author information
-owner:
-  name:           Luca Christille
-  avatar:         avatar.jpg
-  bio:            "Cristiano aderente a @rnsitalia, sposo di Elisa, équipe AEGiovani per Piemonte/VdA, Pastorale di Servizio di un gruppo RnS, studio Psicologia"
-  email:          author@oltrenuovefrontiere.it
-  # Social networking links used in footer. Update and remove as you like.
-  twitter: lucachristille       
-  facebook: lucachristille      
+title:            Site Title
+locale:           en_US
+url:              http://localhost:4000
 
-# Analytics and webmaster tools stuff goes here
-google_analytics:   
-google_verify:      
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:         
 
-# Links to include in top navigation
-# For external links add external: true
-links:
-  - title: Theme Setup
-    url: /theme-setup
+# Jekyll configuration
 
-# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    Europe/Rome
-future:      true
+permalink:   /:categories/:title/
 markdown:    kramdown
+highlighter: pygments
+sass:
+  sass_dir: _sass
+  style: compressed
+gems:
+  - jekyll-sitemap
 
-# Amount of posts to show on home page
-paginate: 5
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
+
+
+# Site owner
+owner:
+  name: Your Name
+  avatar: bio-photo.jpg
+  bio: "Describe your self."
+  email: 
+  disqus-shortname: 
+  twitter: #username
+  facebook: #username
+  google:
+    plus: #username
+    analytics: 
+    verify: 
+    ad-client: 
+    ad-slot: 
+  bing-verify: 
+  github: #username
+  stackoverflow: #http://stackoverflow.com/users/123456/username
+  linkedin: #username
+  instagram: #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]

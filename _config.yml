@@ -29,10 +29,17 @@ owner:
   name: Luca Christille
   avatar: bio-photo.jpg
   bio: "Cristiano aderente a @rnsitalia, sposo di Elisa, équipe AEGiovani per Piemonte/VdA, Pastorale di Servizio di un gruppo RnS, studio Psicologia"
-  email: 
+  email: author@oltrenuovefrontiere.it
   disqus-shortname: oltrenuovefrontiere
   twitter: lucachristille
   facebook: felimblack
+
+collections:
+  - incontro
+  - conversione
+  - formazione
+  - preghiera
+  - missione
   
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
